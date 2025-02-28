@@ -6,7 +6,7 @@ import cv2
 
 img = cv2.imread(os.path.join('.','data', 'bird.jpg'))
 
-print(img.shape) #Es de 168x300
+print(img.shape) #Es de 168x300 (Al reves, retorna alto vs ancho)
 
 cropped_img = img[32:162,100:200] #Corto aprox de 1/3 a 2/3 en ambas dimensiones
 

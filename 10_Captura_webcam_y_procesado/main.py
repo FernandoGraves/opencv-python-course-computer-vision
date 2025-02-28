@@ -3,7 +3,8 @@
 #Webcam OK
 #Dibujo OK
 #Escritura OK
-#Procesado
+#Procesado OK
+#Inclusion red neuronal
 
 import cv2
 
